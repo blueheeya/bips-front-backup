@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import './default.scss';
+.sidebar {
+    background-color: #ffffff;
+    color: $text-color;
+    height: 100vh;
+    transition: 0.2s ease;
+    overflow: hidden;
+    box-shadow: 2px 4px 4px rgba($color: #000000, $alpha: 0.06);
+    z-index: 99;
+    .bips_logo {
+        display: flex;
+        align-items: center;
+        i {
+            content: '';
+            display: inline-block;
+            width: 56px;
+            height: 56px;
+            background: url('../images/icons/logo.svg') no-repeat center;
+            background-size: contain;
+            font-size: 0;
+        }
+    }
+    &.open {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 12px;
+        h1 span {
+            opacity: 1;
+            font-size: 20px;
+            letter-spacing: -0.5px;
+            font-weight: 600;
+        }
+        ul.menu {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            gap: 8px;
+            padding: 12px;
+            .label {
+                display: inline-block;
+                overflow: hidden;
+                white-space: nowrap;
+                transition: width 0.3s ease;
+                width: 100%;
+                text-align: left;
+                opacity: 1;
+            }
+            li {
+                width: 100%;
+            }
+            button {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                width: 100%;
+                padding: 12px;
+                border-radius: 3px;
+                border: none;
+                background: none;
+                cursor: pointer;
+                transition: all 0.5s;
+            }
+            .active button {
+                background: $navOpen-active-color;
+            }
+        }
+    }
+    &.collapsed {
+        width: 80px;
+        padding: 12px;
+        h1 span {
+            opacity: 0;
+            font-size: 0;
+        }
+        .label {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            transition: width 0.3s ease;
+            width: 0;
+            opacity: 0;
+        }
+        ul.menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 8px;
+            button {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                padding: 12px;
+                border-radius: 3px;
+                background: #ffffff;
+                border: none;
+                transition: all 0.3s;
+            }
+            .active button {
+                width: 100%;
+                background: $nav-active-color;
+            }
+        }
+    }
+}

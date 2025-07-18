@@ -1,0 +1,77 @@
+{
+    "hostname": "intnet",
+    "program_list": [
+        {
+            "program_id": "newspim_img.py",
+            "cpu": 0.0,
+            "memory": 0.6350698078415459,
+            "isAlive": true
+        },
+        {
+            "program_id": "newspim_cntn.py",
+            "cpu": 0.0,
+            "memory": 0.6329339228375944,
+            "isAlive": true
+        },
+        {
+            "program_id": "krx_ja.py",
+            "cpu": 0.0,
+            "memory": 0.6127447241097682,
+            "isAlive": true
+        },
+        {
+            "program_id": "krx_jb.py",
+            "cpu": 0.0,
+            "memory": 0.6233732947246692,
+            "isAlive": true
+        },
+        {
+            "program_id": "krx_v2.py",
+            "cpu": 0.0,
+            "memory": 0.6271873750888681,
+            "isAlive": true
+        },
+        {
+            "program_id": "kis_price.py",
+            "cpu": 0.0,
+            "memory": 0.6160502604254073,
+            "isAlive": true
+        },
+        {
+            "program_id": "kbp_price.py",
+            "cpu": 0.0,
+            "memory": 0.613507540182608,
+            "isAlive": true
+        },
+        {
+            "program_id": "kis_cpestb.py",
+            "cpu": 0.0,
+            "memory": 0.6109139655349528,
+            "isAlive": true
+        },
+        {
+            "program_id": "edaily_img.py",
+            "cpu": 0.0,
+            "memory": 0.5867581232283597,
+            "isAlive": true
+        },
+        {
+            "program_id": "kbp_cdcpprice.py",
+            "cpu": 0.0,
+            "memory": 0.6218476625789896,
+            "isAlive": true
+        },
+        {
+            "program_id": "manage_server.py",
+            "cpu": 0.0,
+            "memory": 0.6791097224468291,
+            "isAlive": true
+        },
+        {
+            "program_id": "manage_server.py",
+            "cpu": 0.0,
+            "memory": 0.5783671464271221,
+            "isAlive": true
+        }
+    ]
+}

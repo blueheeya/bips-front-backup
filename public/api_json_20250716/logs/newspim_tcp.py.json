@@ -1,0 +1,7 @@
+{
+    "hostname": "exnet",
+    "program_id": "newspim_tcp.py",
+    "log": "2025-07-16 13:35:08,590 - INFO - [QUEUE] put url = https://img.newspim.com/news/2025/07/16/2507161332501520.jpg",
+    "chunk_index": 0,
+    "chunk_total": 1
+}

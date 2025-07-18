@@ -1,0 +1,29 @@
+{
+    "hostname": "exnet",
+    "program_list": [
+        {
+            "program_id": "newspim_tcp.py",
+            "cpu": 0.0,
+            "memory": 0.9075985634647716,
+            "isAlive": true
+        },
+        {
+            "program_id": "edaily_tcp.py",
+            "cpu": 0.0,
+            "memory": 0.7580866131881745,
+            "isAlive": true
+        },
+        {
+            "program_id": "manage_server.py",
+            "cpu": 0.0,
+            "memory": 0.6791097224468291,
+            "isAlive": true
+        },
+        {
+            "program_id": "manage_server.py",
+            "cpu": 0.0,
+            "memory": 0.5783671464271221,
+            "isAlive": true
+        }
+    ]
+}

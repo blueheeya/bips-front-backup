@@ -1,0 +1,102 @@
+[
+    {
+        "hostname": "exnet",
+        "program_list": [
+            {
+                "program_id": "edaily_tcp.py",
+                "program_name": "이데일리 입수",
+                "is_always": true
+            },
+            {
+                "program_id": "newspim_tcp.py",
+                "program_name": "뉴스핌 입수",
+                "is_always": true
+            },
+            {
+                "program_id": "kbp_sftp.py",
+                "program_name": "한국자산평가 입수 ",
+                "is_always": false
+            },
+            {
+                "program_id": "kis_sftp.py",
+                "program_name": "kis 자산평가 입수",
+                "is_always": false
+            },
+            {
+                "program_id": "krx_sftp.py",
+                "program_name": "krx(코스콤) 입수",
+                "is_always": false
+            }
+        ]
+    },
+    {
+        "hostname": "intnet",
+        "program_list": [
+            {
+                "program_id": "kbp_cdcpprice.py",
+                "program_name": "한국자산평가(KBP) CDCPPRICE 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "kbp_price.py",
+                "program_name": "한국자산평가(KBP) PRICE 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "kis_cpestb.py",
+                "program_name": "KIS자산평가 CPESTB 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "kis_price.py",
+                "program_name": "KIS자산평가 PRICE 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "krx_ja.py",
+                "program_name": "한국거래소(KRX, KOSCOM) JA 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "krx_jb.py",
+                "program_name": "한국거래소(KRX, KOSCOM) JB 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "krx_v2.py",
+                "program_name": "한국거래소(KRX, KOSCOM) V2 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "newspim_cntn.py",
+                "program_name": "뉴스핌 기사 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "newspim_img.py",
+                "program_name": "뉴스핌 이미지 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "edaily_cntn.py",
+                "program_name": "이데일리 기사 적재",
+                "is_always": true
+            },
+            {
+                "program_id": "edaily_img.py",
+                "program_name": "이데일리 이미지 적재",
+                "is_always": true
+            }
+        ]
+    },
+    {
+        "hostname": "fxnet",
+        "program_list": [
+            {
+                "program_id": "ksd_bx0001.py",
+                "program_name": "예탁결제원(KSD)  BX00001 적재",
+                "is_always": true
+            }
+        ]
+    }
+]
